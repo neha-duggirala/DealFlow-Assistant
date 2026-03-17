@@ -8,3 +8,5 @@ langgraph
 qdrant-client
 streamlit
 requests
+gigachat
+langchain-community
