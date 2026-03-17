@@ -6,3 +6,5 @@ langchain-core
 langchain-google-genai
 langgraph
 qdrant-client
+streamlit
+requests
