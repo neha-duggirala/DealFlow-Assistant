@@ -2,7 +2,7 @@
 FastAPI server for the DealFlow Multi-Agent system.
 Exposes REST endpoints consumed by the Java Spring Boot backend.
 
-Run:  uvicorn main:app --host 0.0.0.0 --port 8005 --reload
+Run:  uvicorn main:app --host 127.0.0.1 --port 8005 --reload
 """
 
 import json
@@ -305,4 +305,4 @@ async def ingest_all_deals():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8005)
+    uvicorn.run(app, host="127.0.0.1", port=8005)
